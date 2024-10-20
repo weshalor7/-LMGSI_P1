@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horari Curs 24-25</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 15px;
+            font-size: 20px;
+        }
+
+        /* Colores para cada módulo */
+        .lmsgi {
+            background-color: #FFB6C1; /* Rosa */
+        }
+
+        .bd {
+            background-color: #FFFFCC; /* Amarillo suave */
+        }
+
+        .p-ed {
+            background-color: #ADD8E6; /* Azul claro */
+        }
+
+        .si {
+            background-color: #FFFF99; /* Amarillo */
+        }
+
+        .tut {
+            background-color: #87CEEB; /* Azul cielo */
+        }
+
+        .an {
+            background-color: #FFA500; /* Naranja */
+        }
+
+        .diw {
+            background-color: #FF6347; /* Rojo tomate */
+        }
+
+        .ipo {
+            background-color: #FF4500; /* Naranja fuerte */
+        }
+
+        .descans {
+            background-color: lightgray; /* Color del descans */
+            font-size: 20px;
+            padding: 15px;
+        }
+
+        th {
+            padding: 30px;
+            font-size: 25px;
+            background-color: #66CDAA; /* Verde */
+        }
+
+        .hores {
+            font-size: 20px;
+            padding: 10px;
+            width: 180px;
+        }
+
+        .hora {
+            background-color: #F0F0F0; /* Fondo gris para las horas */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Horari Curs 24-25</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Dilluns</th>
+                <th>Dimarts</th>
+                <th>Dimecres</th>
+                <th>Dijous</th>
+                <th>Divendres</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="hora">8:00 - 9:00</td>
+                <td class="lmsgi" rowspan="2">LMSGI</td>
+                <td class="bd" rowspan="2">BD</td>
+                <td class="p-ed" rowspan="2">P+ED</td>
+                <td class="si" rowspan="2">SI</td>
+                <td class="bd" rowspan="2">BD</td>
+            </tr>
+            <tr>
+                <td class="hora">9:00 - 10:00</td>
+            </tr>
+            <tr>
+                <td class="hora">10:00 - 11:00</td>
+                <td class="p-ed">P+ED</td>
+                <td class="tut">TUT</td>
+                <td class="an">AN</td>
+                <td class="p-ed">P+ED</td>
+                <td class="p-ed">P+ED</td>
+            </tr>
+            <tr class="descans">
+                <td class="hora">11:00 - 11:30</td>
+                <td colspan="5">Descans</td>
+            </tr>
+            <tr>
+                <td class="hora">11:30 - 12:30</td>
+                <td class="p-ed">P+ED</td>
+                <td class="diw" rowspan="2">DIW</td>
+                <td class="ipo" rowspan="2">IPO I</td>
+                <td class="p-ed">P+ED</td>
+                <td class="si" rowspan="2">SI</td>
+            </tr>
+            <tr>
+                <td class="hora">12:30 - 13:30</td>
+                <td class="ipo">IPO I</td>
+                <td class="p-ed">P+ED</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
